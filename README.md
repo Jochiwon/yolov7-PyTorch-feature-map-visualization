@@ -1,10 +1,18 @@
 # yolov7-feature-map-visualization
 my own yolov7 feature-map visualization code.
 
+
+
+
 #   ReadMe <viz-filter-feature-map.py>   #
+
+You can visualize when you have just weight file and cfg file of model!
+
+Just prepare your img and files, enter the path and let the program work!
+
 Example Command
 
-python viz-filter-feature-map.py --model {YOUR MODEL'S WEIGHT(.pt) FILE} --cfg {CFG FILE(.yaml) OF YOUR MODEL}--image {YOUR IMG} --name {OUTPUT FOLDER NAME, CREATED AT visualize-filter/feature-map}
+python viz-filter-feature-map.py --model {YOUR MODEL'S WEIGHT(.pt) FILE} --cfg {CFG FILE(.yaml) OF YOUR MODEL}--image {YOUR IMG} --name {OUTPUT FOLDER NAME, CREATED AT ./visualize-filter/feature-map}
 
 python viz-filter-feature-map.py --model ./Please_Remember_Me/train/yolov7_Argo_origin4/weights/epoch_029.pt --cfg ./cfg/training/yolov7-tiny.yaml --image ./visualize-filter/src/cute-cat.jpg --name tiny-original
 
