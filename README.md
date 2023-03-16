@@ -1,12 +1,7 @@
 # yolov7-feature-map-visualization
 my own yolov7 feature-map visualization code.
 
-
-##########################################
 #   ReadMe <viz-filter-feature-map.py>   #
-# .py should be placed in yolov7 folder  #
-##########################################
-
 Example Command
 
 python viz-filter-feature-map.py --model {YOUR MODEL'S WEIGHT(.pt) FILE} --cfg {CFG FILE(.yaml) OF YOUR MODEL}--image {YOUR IMG} --name {OUTPUT FOLDER NAME, CREATED AT visualize-filter/feature-map}
